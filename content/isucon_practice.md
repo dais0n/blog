@@ -8,7 +8,7 @@ tags = ["isucon"]
 title = "isuconの勉強"
 +++
 
-# ISUCON勉強の記録
+# ISUCON勉強
 
 ### 環境構築
 1. [ISUCON用のvagrantファイル](https://github.com/matsuu/vagrant-isucon)をclone
