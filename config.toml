@@ -1,0 +1,24 @@
+baseURL = "https://dais0n.github.io/blog"
+languageCode = "en-us"
+title = "dais0nMemo"
+theme = "hucore"
+hasCJKLanguage = true
+googleAnalytics = ""
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "daisonMemo"
+keywords = ["go", "linux"]
+author = "Takuya Omura"
+sharingicons = true
+
+[[params.social]]
+url = "https://github.com/dais0n"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/daison8383"
+fa_icon = "fa-twitter"
