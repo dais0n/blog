@@ -25,8 +25,6 @@ title = "毎回コマンド調べてない?pecoれば?"
     ps aux | peco
     ```
 
-    {{< figure src="/images/peco_ps.gif" title="Steve Francia" >}}
-
 ## インストール方法
 おすすめはバイナリそのままもってくるのがおすすめ(環境依存少ない)
 
@@ -224,6 +222,7 @@ pecoに慣れてしまうと以下の現象が発生
 * .snippetsとかどう共有するの?
 
 これらの問題は以下の方法で解決できる
+
 * gitで設定ファイル類を管理
 
 * git cloneとpecoなどをインストールするコマンドを書いたシェルを作成(install.sh)し、gitに上げる
