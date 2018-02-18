@@ -24,7 +24,7 @@ title = "毎回コマンド調べてない?pecoれば?"
     ```
     ps -ax | peco
     ```
-    {{< figure src="/images/peco_ps.gif" title="ps -ax | peco" >}}
+    {{< figure src="../images/peco_ps.gif" title="ps -ax | peco" >}}
 
 ## インストール方法
 おすすめはバイナリそのままもってくるのがおすすめ(環境依存少ない)
