@@ -1,12 +1,11 @@
 +++
-description = ""
 categories = ["command"]
+date = "2018-02-18T13:56:02+09:00"
 tags = ["peco"]
-draft = true
+draft = false
 author = "dais0n"
+title = "毎回コマンド調べてない?pecoれば?"
 +++
-
-# 毎回コマンド調べてない?pecoれば?
 
 ## pecoってなに？
 * [github](https://github.com/peco/peco): Go製！！
@@ -21,10 +20,12 @@ author = "dais0n"
 [peco公式のデモ](https://github.com/peco/peco#demo)
 
 * psコマンドの結果を標準入力としてpecoに渡す例
+
     ```
     ps aux | peco
     ```
-    ![peco ps](/img/peco_ps.jpg)
+
+    {{< figure src="/images/peco_ps.gif" title="Steve Francia" >}}
 
 ## インストール方法
 おすすめはバイナリそのままもってくるのがおすすめ(環境依存少ない)
@@ -35,10 +36,12 @@ author = "dais0n"
     ```
     brew install peco
     ```
+
 * go
     ```
     go get github.com/peco/peco/cmd/peco
     ```
+
 * binary
     * macの場合
         ```
@@ -58,29 +61,33 @@ author = "dais0n"
 ## pecoの利用シーン
 
 > おにいちゃん！goのスクリプトをvimで開きたいんだけど名前忘れちゃって。。てへ
+
 ```
 vi $(find . -name '*.go' | peco)
 ```
 
 > おにいちゃん前打ったコマンド忘れちゃったぁ一部の単語覚えてるんだけど。てへ
+
 ```
 # historyを全件インクリメンタルサーチ
 history -n -r 1 | peco
 ```
 
 > おにいちゃん..なんでこんなディレクトリ深く切ってるの！？探しにくい！怒
+
 ```
 # 現在以下のディレクトリを検索し、インクリメンタルサーチ後移動
 cd "$(find . -type d | peco)"
 ```
 
 > おにいちゃん! gitの履歴調べて、変更内容見たい！コミットメッセージ曖昧にしか覚えてない！！
+
 ```
 # git logをインクリメンタルサーチ後、その結果をgit showする
 git log --oneline | peco | cut -d" " -f1 | xargs git show
 ```
 
-## peco ♡ shell
+## pecoとshellのハーモニー
 
 pecoはシェルのショートカットとして利用することで最も効果を発揮する
 
@@ -125,7 +132,9 @@ pecoはシェルのショートカットとして利用することで最も効�
 
 #### bash
 .bashrcに以下のステップで設定を入れる
+
 * 履歴の設定
+
     ```
     export HISTCONTROL=ignoreboth:erasedups # 重複履歴を無視
     HISTSIZE=5000 # historyに記憶するコマンド数
@@ -146,6 +155,7 @@ pecoはシェルのショートカットとして利用することで最も効�
     [Macのbashを4.x系に変更する](https://qiita.com/zaburo/items/1b990436ca45545959e9)
 
 ### cd履歴をpecoり移動
+
 #### zsh
 * cdrの設定(ディレクトリスタック)
     ```
@@ -189,6 +199,7 @@ pecoはシェルのショートカットとして利用することで最も効�
 
 ### よく使用するコマンドを~/.zsh/.snippetsに定義し、それを検索
 * zsh
+
     ```
     function peco-snippets() {
         BUFFER=$(grep -v "^#" ~/.zsh/snippets | peco --query "$LBUFFER")
@@ -200,6 +211,7 @@ pecoはシェルのショートカットとして利用することで最も効�
 
 ### ghqでリポジトリ管理している人向け
 * ghqで管理しているディレクトリをインクリメンタルサーチして移動　
+
     ```
     alias ghd='cd $(ghq list --full-path | peco)'
     ```

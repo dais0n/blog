@@ -2,10 +2,10 @@
 author = "dais0n"
 categories = ["isucon"]
 date = "2017-09-23T21:38:02+09:00"
-description = "isuconの勉強"
+description = "isucon練習"
 draft = false
 tags = ["isucon"]
-title = "isuconの勉強"
+title = "isucon夏期講習2017やってみた"
 +++
 
 # ISUCON勉強
