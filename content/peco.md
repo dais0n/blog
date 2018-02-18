@@ -22,8 +22,9 @@ title = "毎回コマンド調べてない?pecoれば?"
 * psコマンドの結果を標準入力としてpecoに渡す例
 
     ```
-    ps aux | peco
+    ps -ax | peco
     ```
+    {{< figure src="/images/peco_ps.gif" title="ps -ax | peco" >}}
 
 ## インストール方法
 おすすめはバイナリそのままもってくるのがおすすめ(環境依存少ない)
