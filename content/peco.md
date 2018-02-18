@@ -254,3 +254,5 @@ pecoに慣れてしまうと以下の現象が発生
 * [コマンドライン編集機能 Zsh Line Editor を使いこなす](https://qiita.com/b4b4r07/items/8db0257d2e6f6b19ecb9)
 * [bashで使うpeco .bashrcサンプル](https://gist.github.com/umeyuki/0267d8e995e32012cfe8)
 * [最強の dotfiles 駆動開発と GitHub で管理する運用方法](https://qiita.com/b4b4r07/items/b70178e021bef12cd4a2)
+* [peco/percolでCUIなスニペットツールを作ってみる](http://blog.glidenote.com/blog/2014/06/26/snippets-peco-percol/)
+
