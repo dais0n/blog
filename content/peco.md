@@ -255,4 +255,4 @@ pecoに慣れてしまうと以下の現象が発生
 * [bashで使うpeco .bashrcサンプル](https://gist.github.com/umeyuki/0267d8e995e32012cfe8)
 * [最強の dotfiles 駆動開発と GitHub で管理する運用方法](https://qiita.com/b4b4r07/items/b70178e021bef12cd4a2)
 * [peco/percolでCUIなスニペットツールを作ってみる](http://blog.glidenote.com/blog/2014/06/26/snippets-peco-percol/)
-
+* [pecoでssh](http://d.hatena.ne.jp/tacahiroy/20140826/1409069304)
