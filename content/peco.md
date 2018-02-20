@@ -65,13 +65,6 @@ title = "毎回コマンド調べてない?pecoれば?"
 vi $(find . -name '*.go' | peco)
 ```
 
-> おにいちゃん前打ったコマンド忘れちゃったぁ一部の単語覚えてるんだけど。てへ
-
-```
-# historyを全件インクリメンタルサーチ
-history -n -r 1 | peco
-```
-
 > おにいちゃん..なんでこんなディレクトリ深く切ってるの！？探しにくい！怒
 
 ```
@@ -84,6 +77,13 @@ cd "$(find . -type d | peco)"
 ```
 # git logをインクリメンタルサーチ後、その結果をgit showする
 git log --oneline | peco | cut -d" " -f1 | xargs git show
+```
+
+> おにいちゃん！前入ったサーバ忘れちゃった。。もうマヂ無理
+
+```
+# sshしたことのあるサーバをインクリメンタルサーチ
+ssh $(grep -o '^\S\+' ~/.ssh/known_hosts | tr -d '[]' | tr ',' '\n' | sort | peco)
 ```
 
 ## pecoとshellのハーモニー
