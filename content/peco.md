@@ -4,7 +4,7 @@ date = "2018-02-18T13:56:02+09:00"
 tags = ["peco"]
 draft = false
 author = "dais0n"
-title = "毎回コマンド調べてない?pecoれば?"
+title = "毎回コマンド調べてない？それpeco使えば解決できるよ"
 +++
 
 ## pecoってなに？
