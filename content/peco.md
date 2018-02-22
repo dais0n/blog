@@ -54,7 +54,7 @@ title = "毎回コマンド調べてない？それpeco使えば解決できる�
         ## バイナリダウンロード
         curl -L -O https://github.com/peco/peco/releases/download/v0.5.1/peco_linux_amd64.tar.gz
         ## 解凍後パス通ってるディレクトリにおいて、残ったディレクトリ削除
-        unzip peco_darwin_amd64.zip && sudo mv peco_darwin_amd64/peco /usr/local/bin && rm -rf peco_darwin_amd64 peco_darwin_amd64.zip 
+        unzip peco_linux_amd64.zip && sudo mv peco_linux_amd64/peco /usr/local/bin && rm -rf peco_linux_amd64 peco_linux_amd64.zip 
         ```
 
 ## pecoの利用シーン
