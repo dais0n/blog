@@ -52,7 +52,7 @@ title = "毎回コマンド調べてない？それpeco使えば解決できる�
     * linuxの場合
         ```
         ## バイナリダウンロード
-        curl -L -O https://github.com/peco/peco/releases/download/v0.5.1/peco_linux_amd64.zip
+        curl -L -O https://github.com/peco/peco/releases/download/v0.5.1/peco_linux_amd64.tar.gz
         ## 解凍後パス通ってるディレクトリにおいて、残ったディレクトリ削除
         tar -zxvf peco_linux_amd64.tar.gz && sudo mv peco_linux_amd64/peco /usr/local/bin && rm -rf peco_linux_amd64 peco_linux_amd64.tar.gz
         ```
