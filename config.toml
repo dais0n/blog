@@ -10,8 +10,8 @@ tag = "tags"
 category = "categories"
 
 [params]
-description = "daisonMemo"
-keywords = ["go", "linux"]
+description = "dais0nMemo"
+keywords = ["dais0nMemo"]
 author = "Takuya Omura"
 sharingicons = true
 

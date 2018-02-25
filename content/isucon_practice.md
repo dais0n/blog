@@ -2,7 +2,6 @@
 author = "dais0n"
 categories = ["isucon"]
 date = "2017-09-23T21:38:02+09:00"
-description = "isucon練習"
 draft = false
 tags = ["isucon"]
 title = "isucon夏期講習2017やってみた"

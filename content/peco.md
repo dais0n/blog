@@ -1,5 +1,5 @@
 +++
-categories = ["command"]
+categories = ["peco", "zsh", "bash"]
 date = "2018-02-18T13:56:02+09:00"
 tags = ["peco"]
 draft = false
