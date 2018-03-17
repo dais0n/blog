@@ -8,7 +8,6 @@ title = "毎回コマンド調べてない？それpeco使えば解決できる�
 +++
 
 ## pecoってなに？
-* [github](https://github.com/peco/peco): Go製！！
 * Simplistic interactive filtering tool 
 
 * 標準入力から受けた行データをインクリメンタルサーチして、選択した行を標準出力に返す(C-n, C-pで移動可能)
