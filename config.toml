@@ -1,6 +1,6 @@
 baseURL = "https://blog.dais0n.net"
 languageCode = "en-us"
-title = "dais0nMemo"
+title = "dais0nNote"
 theme = "hucore"
 hasCJKLanguage = true
 googleAnalytics = "UA-111937976-1"
@@ -10,8 +10,8 @@ tag = "tags"
 category = "categories"
 
 [params]
-description = "dais0nMemo"
-keywords = ["dais0nMemo"]
+description = "dais0nNote"
+keywords = ["dais0nNote"]
 author = "Takuya Omura"
 sharingicons = true
 
