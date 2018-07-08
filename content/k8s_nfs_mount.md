@@ -86,7 +86,9 @@ nfsサーバの構築は終わったので、続いてk8sのpersistent volumeを
 
 ### pvの説明
 Persistent VolumesはPodで使うストレージを管理するための仕組みです。
-k8sではPodがダウンしたり、他のマシンで再度立ち上げてもデータを残す必要がある場合があります。そのためネットワークボリュームを使うことを前提に設計されており、kubernetesのノードとは切り離して管理します。 NFSにとどまらずAWSElasticBlockStoreやGCEPersistentDiskなどPodとは独立した壽命を持つクラウドなど外部の永続化ストレージサポートします。
+k8sではPodがダウンしたり、他のマシンで再度立ち上げてもデータを残す必要がある場合があります。そのためネットワークボリュームを使うことを前提に設計されており、kubernetesのノードとは切り離して管理します。
+
+NFSにとどまらずAWSElasticBlockStoreやGCEPersistentDiskなどPodとは独立した壽命を持つクラウドなど外部の永続化ストレージサポートします。
 
 ### pvの作成
 * yamlを記載
@@ -140,10 +142,9 @@ Source:
 podとpvを紐付けるためにpersistent volume claim(pvc)を使ってpodからpvを要求します。
 
 ### pvcの説明
-公式ドキュメントには以下のように記載してある
-Pods consume node resources and PVCs consume PV resources podはnodeのリソースを消費し、pvcはpvのリソースを消費するものである。
-つまりpodは要求したcpuやメモリを満たしたnodeを選んでpodを立ち上げるが、pvcは要求したディスク容量などを満たしたpvを選んでpodにマウントする動的ボリューム割当ができる。
-pod内で直接pvを指定することもできるが、そうするとpodの定義が特定のクラウドに固定されてしまうかつ、アプリ開発者はpvのストレージ固有の情報も知る必要がある。 本来はpvcを使うことでpodの定義をクラウドから分離し、pvをKubernetesクラスタの管理者が作成し、pvcをアプリ開発者が作成するような管理が望ましいらしい。
+podは要求したcpuやメモリを満たしたnodeを選んでpodを立ち上げるが、pvcは要求したディスク容量などを満たしたpvを選んでpodにマウントする動的ボリューム割当ができる仕組みである。pod内で直接pvを指定することもできるが、そうするとpodの定義が特定のクラウドに固定されてしまうかつ、アプリ開発者はpvのストレージ固有の情報も知る必要がある。 
+
+本来はpvcを使うことでpodの定義をクラウドから分離し、pvをKubernetesクラスタの管理者が作成し、pvcをアプリ開発者が作成するような管理が望ましいらしい。
 
 ### pvcの作成
 * yamlを記載
