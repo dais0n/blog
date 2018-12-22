@@ -7,6 +7,9 @@ author = "dais0n"
 title = "the illustrated Children's Guide to Kubernetes訳してみた"
 +++
 
+{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_0.jpg" width="400" height="300" >}}
+上司にkubecon2018のお土産をもらいまして、captain kubeが可愛かったのでthe illustrated Children's Guide to Kubernetesのcaptain kubeが出てくる話を訳しました。
+
 {{< figure src="../images/illustrated_children_s_guide_to_kubernetes_1.png" width="400" height="300" >}}
 the other day my daughter sidled into my office and asked me
 
