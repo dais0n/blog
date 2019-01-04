@@ -341,7 +341,6 @@ server {
 * nginxを再度立てる
 
 ```
-
 sudo service nginx start
 ```
 
