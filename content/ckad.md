@@ -21,7 +21,7 @@ CKADとは何かというところから勉強方法までまとめてみまし�
 ### 試験概要
 - 試験時間は120分、問題は20問で、合格ラインは66%となってます
 - 参照できるドキュメントは https://kubernetes.io/docs と https://github.com/kubernetes/ のみです
-- 申し込みや注意事項が書いてあるHandbook、試験官は英語ですが、試験の問題文は言語選択が可能です
+- 申し込みや注意事項が書いてあるHandbook、試験官とのチャットは英語ですが、試験の問題文は言語選択が可能です
 
 ### 申し込み方法
 - [linux foundationのページ](https://www.cncf.io/certification/ckad/)から申し込めます
