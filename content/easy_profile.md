@@ -1,7 +1,7 @@
 +++
-categories = ["ops"]
+categories = ["devops"]
 date = "2019-11-09"
-tags = ["ops"]
+tags = ["devops"]
 draft = false
 author = "dais0n"
 title = "プロファイルを気軽にかけれるようにしておくのが大事だなぁ"
