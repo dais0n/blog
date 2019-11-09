@@ -21,4 +21,4 @@ Goであれば、pprof用のrouterを設定によって追加するとかをや�
 
 [authorization-proxy](https://github.com/yahoojapan/authorization-proxy/blob/master/doc/debug.md#profiling)
 
-上記プロダクトk8sのconfigmapでプロファイルのサーバが立ち上がるようになっていた。よい。
+上記プロダクトはk8sのconfigmapの設定でプロファイルのサーバが立ち上がるようになっていた。よい。
