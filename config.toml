@@ -4,6 +4,7 @@ title = "dais0nNote"
 theme = "hucore"
 hasCJKLanguage = true
 googleAnalytics = "UA-111937976-1"
+disqusShortname = "blog-dais0n-net"
 
 [taxonomies]
 tag = "tags"
