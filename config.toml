@@ -50,19 +50,14 @@ customJS = [""]
 # Main menu which appears below site header.
 
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 1
-
-[[menu.main]]
 name = "Hobby"
 url = "/posts/hobby"
-weight = 2
+weight = 1
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
+weight = 2
 
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
