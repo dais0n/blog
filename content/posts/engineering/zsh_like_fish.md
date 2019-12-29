@@ -21,7 +21,7 @@ description = "zplugの紹介とzshをfishっぽく使う設定"
 1. 設定はできるだけ少なく
 
 最終的にこんな感じになります
-{{< figure src="../images/zsh_like_fish.gif">}}
+{{< figure src="../../../images/zsh_like_fish.gif">}}
 
 上記で
 
@@ -37,7 +37,7 @@ description = "zplugの紹介とzshをfishっぽく使う設定"
 今回は設定を少なくし、プラグインの導入を楽にしたいのでzshのプラグインマネージャであるzplugを入れてプラグインを管理します
 
 こんな感じで定義したプラグインを入れてくれます！かっこいいですね
-{{< figure src="../images/zplug.gif">}}
+{{< figure src="../../../images/zplug.gif">}}
 
 zshのプラグインマネージャには色々あります(antigen、oh-my-zsh)が、zplugには以下の特徴があります。
 
@@ -57,7 +57,7 @@ zplug 'felixr/docker-zsh-completion'
 ### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 zshをfishっぽくするエッセンスの1つ目で、fishのように途中まで文字を入力すると過去の入力履歴から補完が出てくるやつです。
 
-{{< figure src="../images/zsh_autosuggestion.gif">}}
+{{< figure src="../../../images/zsh_autosuggestion.gif">}}
 
 候補が出てきたら、C-fで補完を行の最後まで確定、Option-fで単語毎に確定できます。
 
@@ -66,7 +66,7 @@ Optionはターミナルの設定でOptionをmetaキーに割り当てないと�
 ### [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 zshをfizhっぽくするエッセンスの2つ目でfishのように、コマンドのシンタックスハイライトをしてくれます。
 
-{{< figure src="../images/zsh_syntax_highlighting.png">}}
+{{< figure src="../../../images/zsh_syntax_highlighting.png">}}
 (公式より引用)
 
 これなら打っている途中でコマンドが間違っているかわかる

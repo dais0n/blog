@@ -12,7 +12,7 @@ description = "自分のメモ用に立てた際の記録"
 
 実際に立てたとこ: https://mattermost.dais0n.net/
 
-{{< figure src="../images/mattermost_setup_1.png" width="400" height="300" >}}
+{{< figure src="../../../images/mattermost_setup_1.png" width="400" height="300" >}}
 
 上記はプライベート(管理者アカウントのみしか作れない設定にしてある)ので登録はみなさんは登録できません
 

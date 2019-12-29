@@ -8,10 +8,10 @@ title = "the illustrated Children's Guide to Kubernetes訳"
 description = "Captain Kubeが可愛いので訳してみた"
 +++
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_0.jpg" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_0.jpg" width="400" height="300" >}}
 上司にkubecon2018のお土産をもらいまして、captain kubeが可愛かったのでthe illustrated Children's Guide to Kubernetesのcaptain kubeが出てくる話を訳しました。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_1.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_1.png" width="400" height="300" >}}
 the other day my daughter sidled into my office and asked me
 
 こないだ娘がオフィスにこっそり入ってきて訪ねてきました。
@@ -28,7 +28,7 @@ right that's a little bit of a paraphrase but you get the idea and I responded
 
 そうですね。少し言い換えることになるけど、思い浮かんでこう答えました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_2.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_2.png" width="400" height="300" >}}
 kubernetes is an open source orchestration system for docker containers
 
 kubernetesはdockerコンテナのオープンソースのオーケストレーションシステムで
@@ -45,12 +45,12 @@ and my daugher said to me huh
 
 娘ははぁ？といいいました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_3.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_3.png" width="400" height="300" >}}
 and so i give you the illustrated children's guid to kubernetes
 
 そのため私はkuberetesの挿絵入りの入りの子供向けのガイドを作ります
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_4.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_4.png" width="400" height="300" >}}
 once upon a time there was an app named Phippy and she was a single app
 
 昔々、Phippyという名のアプリケーションがいました。彼女はシングルアプリでした。
@@ -67,12 +67,12 @@ she wished she had her own environment just her and a web server she could call 
 
 彼女は自分だけのため環境、また彼女が家といえるWebサーバがあればよいなと思っていました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_5.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_5.png" width="400" height="300" >}}
 an app has an enviroment that it relies upon to run for PHP app that environment might include a web server a readable file system and the PHP engine itself
 
 アプリケーションはPHPを動かすことに責務を負った環境をもちます。そしてその環境ではWebサーバやファイルシステムPHPのエンジンそれ自身を含むかもしれません
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_6.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_6.png" width="400" height="300" >}}
 one day a kindly whale came along he suggested that little Phippy might be happier living in a container and so the app moved and the container was nice 
 
 ある日、やさしいくじらが現れて、彼は小さいPhippyはコンテナの中で過ごすのがより幸せかもしれないと提案しました。そしてアプリケーションはコンテナに移行しました。コンテナは快適でした。
@@ -81,7 +81,7 @@ but it was a little bit like having a fancy living room floating in the middle o
 
 しかし少し海の真ん中に浮かぶファンシーなリビングルームのようでした
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_7.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_7.png" width="400" height="300" >}}
 a container provieds an isolated context in which an app together with its environment can run
 
 コンテナはその環境で動くアプリケーションと共に隔離されたコンテキストを提供します
@@ -94,7 +94,7 @@ shared file systems networking scheduling load balancing and distribution are al
 
 共有ファイルシステムやネットワークスケジュール、ロードバランスやディストリビューションには全て課題があります
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_8.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_8.png" width="400" height="300" >}}
 the whale shrugged his shoulders sorry kid he said and disappeard beneath the ocean's surface
 
 くじらは肩をすくめ、ごめんねといって海面の下に消えました
@@ -115,7 +115,7 @@ hello there friend PHP app my name is captain kuby said the wise old captain
 
 こんちにはPHPアプリケーション。私はキャプテンKube。賢く年老いたキャプテンは言いました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_9.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_9.png" width="400" height="300" >}}
 kubernetes is the greek word for a ship's captain
 
 kubernetesは船のキャプテンという意味のギリシャ語です
@@ -128,12 +128,12 @@ it led by Google the Kubernetes project focuses on building a robust platform fo
 
 kubernetesプロジェクトはGoogleによって指揮が取られていて、たくさんのコンテナをプロダクションで動かしていくための堅牢なプラットフォームの構築に焦点をあてています
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_10.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_10.png" width="400" height="300" >}}
 I am fibbies said the little app nice to make your acquaitance said the captain as he slapped a nametag on her
 
 私はFibby。小さなアプリは言いました。キャプテンは彼女にネームタグをつけながら以後お見知りおきをと言いました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_11.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_11.png" width="400" height="300" >}}
 kubernetes uses labels as a name tags to identify things and it can query based on these labels 
 
 kubernetesはある物事を特定するためにネームタグのようなラベルを使います。kubernetesはそれらのラベルをもとにクエリをかけられます
@@ -142,7 +142,7 @@ labels are open-ended you can use them to indicate roles stability or other impo
 
 ラベルはroleの安定性や重要な属性を示す誰でも使うことのできる変更可能なものです
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_12.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_12.png" width="400" height="300" >}}
 captain kuby suggested that the app might like to move her container into a pod aboard the ship
 
 キャプテンkubeはそのアプリケーションはコンテナを船の上のpodに移したほうが好ましいかもしれないと提案した
@@ -151,7 +151,7 @@ Pippy happly moved to coops giant boat it felt like home
 
 Phibbyは喜んでkubeの大きな船に移しました。そしてそこは家のように感じました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_13.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_13.png" width="400" height="300" >}}
 captain kuby suggested that the app might like to move her container into a pod aboard the ship
 in kubernetes a pod represents a runnable unit of work usually
 
@@ -169,7 +169,7 @@ kubernetes takes on the work of connecting your pod to the network and the rest 
 
 kubernetesではpodをネットワークや他のkubernetesのエコシステムにつなぐ役割を担っています。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_14.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_14.png" width="400" height="300" >}}
 phippy had some unusual interests
 
 Phippyはいくつか興味がありました
@@ -182,7 +182,7 @@ well that's easy said the captain he introduced her to the replication controlle
 
 なるほど、それは簡単だよとキャプテンは答えて、彼はreplication controllersを紹介しました。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_15.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_15.png" width="400" height="300" >}}
 replication controllers provide a method for managing an arbitrary number of pods
 
 replication controllersは任意の数のpodを管理する方法を提供しています
@@ -195,7 +195,7 @@ through the replication controller kubernetes will manage your pod life cycle in
 
 replication controllerを通してkubernetesはpodのライフサイクルを管理しており、それはスケジュールアップやローリングデプロイメントや監視を含んでいます。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_16.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_16.png" width="400" height="300" >}}
 replication controllers provide a method for managing an arbitrary number of pods
 for many days and nights the little app was happy with her pod and happy with her replicas
 
@@ -217,7 +217,7 @@ so you can discover other pods and they can discover you
 
 だから君は他のpodをみつけられるし、他のpodはあなたをみつけることができますよ
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_17.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_17.png" width="400" height="300" >}}
 a service tells the rest of kubernetes is environment including other pods and replication controllers
 
 サービスは残りのkubernetesが他のpodやreplication controllerを含んだ環境であると教えてくれます
@@ -230,7 +230,7 @@ and the other applications can find through kubernetes as service discovery
 
 そして他のアプリケーションがサービスディスカバリのようにkubernetesを通して見つけることができます。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_18.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_18.png" width="400" height="300" >}}
 thanks to the services phippy began to explore the rest of the ship
 
 サービスのおかげでFippyは残りの船の場所を調査し始めました
@@ -267,7 +267,7 @@ Why not put it in a volume
 
 なんでvolumeに置かないんだい
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_19.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_19.png" width="400" height="300" >}}
 a volume represents a location where containers can access and store infomation
 
 volumeはコンテナがアクセスし、情報を格納できる場所を提供します。
@@ -280,7 +280,7 @@ but volumes may be backend by local storage SEF Gluster elastic block storage an
 
 しかしvolumeはローカルストレージ、SEF Gluster elastic block ストレージ他の様々なストレージバックエンドかもしれません。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_20.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_20.png" width="400" height="300" >}}
 Fhippy loved life abord captain kube's ship and she enjoyed the company of her new friends
 
 Fhippyはキャプテンkubeの船の上で幸せに暮らしていました。彼女は新しい友だちとともに楽しんでいました
@@ -301,7 +301,7 @@ sound like what you need said captain kube is a namespace
 
 必要としているのはnamespaceだと思うよとキャプテンkubeはいいました
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_21.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_21.png" width="400" height="300" >}}
 namespace functions is a grouping mechanism inside of kubernetes
 
 namespace機能はkubernetesのグルーピング機能です
@@ -314,7 +314,7 @@ but the namespace provides a degree of isolation from the other part of cluster
 
 しかしnamespaceは他のクラスタからはある種隔離しています。
 
-{{< figure src="../images/illustrated_children_s_guide_to_kubernetes_22.png" width="400" height="300" >}}
+{{< figure src="../../../images/illustrated_children_s_guide_to_kubernetes_22.png" width="400" height="300" >}}
 together with her new friends Phippy sailed the seas on captain kube's great boat
 
 Phippyは友達と共に、キャプテンkubeのボートに乗って航海しました

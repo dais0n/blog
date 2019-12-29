@@ -21,7 +21,7 @@ description = "どの環境でも同じ設定を使う方法をまとめてみ�
 
 ## ゴール
 早速ですが、自分が初めてサーバに入ると走らせているスクリプトのgifです。
-{{< figure src="../images/dotfiles_in_anywhere_1.gif" >}}
+{{< figure src="../../../images/dotfiles_in_anywhere_1.gif" >}}
 上記の動画のように
 
 * dotfilesのクローン
@@ -239,7 +239,7 @@ bindkey '^S' peco-snippets
 
 コメント行のみを覗いてpecoで絞り込みをかけてくれます。そうすると以下のようにどの環境でも忘れやすいコマンドを検索できるようになります。
 
-{{< figure src="../images/dotfiles_in_anywhere_2.png" >}}
+{{< figure src="../../../images/dotfiles_in_anywhere_2.png" >}}
 
 シンプルですが自分はこのsnippet管理方法が好きです。
 
