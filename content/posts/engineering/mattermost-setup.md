@@ -1,10 +1,11 @@
 +++
-categories = ["mattermost","gcp","tool"]
 date = "2019-01-04T11:00:02+09:00"
-tags = ["mattermost", "gcp"]
+tags = ["gcp"]
 draft = false
 author = "dais0n"
-title = "プライベートなmatttermostサーバをGCP上に立ててみる"
+type = "posts/engineering"
+title = "プライベートなmatttermostサーバをGCP上に立てる"
+description = "自分のメモ用に立てた際の記録"
 +++
 
 メモとかTODO管理用にMattermostサーバをGCP上に立ててみたので備忘録として残します

@@ -1,10 +1,11 @@
 +++
-categories = ["k8s"]
 date = "2018-12-22T12:00:02+09:00"
 tags = ["k8s"]
 draft = false
 author = "dais0n"
-title = "the illustrated Children's Guide to Kubernetes訳してみた"
+type = "posts/engineering"
+title = "the illustrated Children's Guide to Kubernetes訳"
+description = "Captain Kubeが可愛いので訳してみた"
 +++
 
 {{< figure src="../images/illustrated_children_s_guide_to_kubernetes_0.jpg" width="400" height="300" >}}

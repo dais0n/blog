@@ -1,11 +1,11 @@
 +++
-categories = ["k8s","linux"]
-description = "k8sのpodからnfsマウントする"
 date = "2018-07-08T13:56:02+09:00"
-tags = ["k8s", "nfs"]
+tags = ["k8s"]
 draft = false
 author = "dais0n"
 title = "k8sのpodからnfsマウントする"
+type = "posts/engineering"
+description = "volume周りの理解のためやってみる"
 +++
 
 

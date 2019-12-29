@@ -1,10 +1,11 @@
 +++
-categories = ["dotfiles"]
 date = "2019-01-27T16:00:02+09:00"
-tags = ["dotfiles","automation"]
+tags = ["efficiency","tool"]
 draft = false
 author = "dais0n"
-title = "どの環境でも同じパフォーマンスを発揮するdotfilesのsetting & setup"
+type = "posts/engineering"
+title = "常に同じパフォーマンスを発揮するdotfilesの設定"
+description = "どの環境でも同じ設定を使う方法をまとめてみた"
 +++
 
 ## 背景

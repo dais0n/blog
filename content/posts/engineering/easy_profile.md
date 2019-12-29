@@ -1,10 +1,11 @@
 +++
-categories = ["devops"]
 date = "2019-11-09"
-tags = ["devops"]
+tags = ["efficiency"]
 draft = false
 author = "dais0n"
-title = "プロファイルを気軽にかけれるようにしておくのが大事だなぁ"
+type = "posts/engineering"
+title = "計測の敷居を低くするのが大事という知見"
+description = "APIをプロファイリングした時のメモ"
 +++
 
 ただのメモ

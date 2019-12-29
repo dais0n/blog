@@ -1,10 +1,11 @@
 +++
-categories = ["peco", "zsh", "bash"]
 date = "2018-02-18T13:56:02+09:00"
-tags = ["peco"]
+tags = ["tool"]
 draft = false
 author = "dais0n"
+type = "posts/engineering"
 title = "毎回コマンド調べてない？それpeco使えば解決できるよ"
+description = "pecoの紹介"
 +++
 
 ## pecoってなに？

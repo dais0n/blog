@@ -3,7 +3,7 @@ env:
   global:
   - GIT_AUTHOR_EMAIL=t.omura8383@gmail.com
   - GIT_AUTHOR_NAME=dais0n
-  - HUGO_VERSION=0.54.0
+  - HUGO_VERSION=0.62.0
   - secure: "aZTZYhBa8fJOvMzs7y+zulGQoraDhmGZpSoXePzMbR47K2SG3ocBkDwWPl0/Rj+qctCU49apPMaVN/t79RHVmnXyFl+7AdWN5FgCqLGrjA1fdXnsIxnan6PkmGgp0HgfxQI7ywGWbBUfbivtYm8EVQlcjBi/qs6+Pmyx3WU9lRSpUmGFaZutGk5UDJKVEIzvfe5vEZ7J1LgMQ0QrthLF2wczcM/mGfbSafqP3/lBW6Kpw8AELr/DUNZ5dfY49wSfyEduP+ON0kKGkTLutj5qS2Kwo940aEGfz/wiKFBQeEYcuZYN7/Y7KxU7Ybnn42AW88Vj2a2TPqP5OhGoRu8ZpKoHMImwaosRmOMUejBOVBG4dAu+SraGZuFYVv7L9R4bO7tfKPf2ssAmQbh8MEOMeTv2BMDPjbgcVQ5oqwPC1i4CqoTvGu6GTMSeooH5uVEgHxb7XtPTs26g+gaPIk2Ws+839huJb1VgpLgJR4YVLvDvgZVqTmyIyDGpmfDOh/poMbFlrlmRIiTIzH2gmyO5PR+fsfPfxh8PCYIW06Qtmlt+9mmwCqNUxJhbcN33cuTGYNFfsnug7FqHkceUxAobYpOMEsMnKC+GZxQDygJd9iTNVBPH3mcyYZ4ndCLBh5FyV8Eh/nGhNHgGoM8IZ3K7f36whElkBVFRVh5NvfVzoDU="
   - GIT_URL=https://${GH_TOKEN}@github.com/dais0n/blog.git
 install:
