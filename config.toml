@@ -50,6 +50,10 @@ customJS = [""]
 
 # Main menu which appears below site header.
 
+# twitter card
+description = "dais0nNote"
+images = ["twitter_card_default.png"]
+
 [[menu.main]]
 name = "Hobby"
 url = "/posts/hobby"
