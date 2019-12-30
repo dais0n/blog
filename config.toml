@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "dais0nNote"
 theme = "ezhil"
 hasCJKLanguage = true
+enableEmoji=true
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"
@@ -80,3 +81,5 @@ url = "https://www.instagram.com/dais0n_"
 [taxonomies]
 tag = "tags"
 
+[markup.goldmark.renderer]
+unsafe = true
