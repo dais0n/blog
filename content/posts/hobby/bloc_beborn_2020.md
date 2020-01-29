@@ -3,7 +3,7 @@ date = "2020-01-26T13:57:02+09:00"
 tags = ["climbing"]
 draft = false
 author = "dais0n"
-title = "【クライミング】bloc 2020 beborn(エントリークラス)に参加してきた"
+title = "bloc 2020 beborn(エントリークラス)に参加してきた"
 +++
 
 

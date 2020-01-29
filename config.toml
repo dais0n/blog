@@ -81,6 +81,11 @@ name = "Instagram"
 icon = "instagram"
 url = "https://www.instagram.com/dais0n_"
 
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
 # Enable tags.
 [taxonomies]
 tag = "tags"
