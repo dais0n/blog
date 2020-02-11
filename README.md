@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/dais0n/dais0nNote.svg?branch=master)](https://travis-ci.org/dais0n/dais0nNote)
+![](https://github.com/dais0n/dais0nNote/workflows/gh-pages/badge.svg)
 
 # dais0nNote
 https://blog.dais0n.net/
+
