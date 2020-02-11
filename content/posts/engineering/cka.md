@@ -14,25 +14,25 @@ CKADに合格してからKubernetesの仕組みにも興味を持ち、CKA(Certi
 
 CKAD合格までの勉強方法は[こちら](https://blog.dais0n.net/posts/engineering/ckad/)にまとめてます。
 
-## 合格に必要なこと、やったこと
+## 合格までにやったこと
 
 ### 合格に必要なこと
 
-合格に必要な知識としてはまとめると
+合格に必要な知識としては[公式ページ](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)のDomains & Competenciesに詳しく記載してありますが、まとめると
 
 - Kubernetesの基本リソースの理解
 
 - Kubernetesクラスタ管理者向けのリソースの理解
 
-- Kubernetesクラスタを構成するコンポーネントの理解
+- Kubernetesクラスタを構成するコンポーネントの理解及びクラスタの構築
 
-が必要かと思います。
+が必要です。
 
 ### 合格までにやったこと
 
 やったことは[Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)をやりきるだけでした。
 
-このUdemyの講座をやりきるだけで、上記に述べた合格までに必要な知識は全て学べます。
+このUdemyの講座をやりきるだけで、上記に述べた合格までに必要な知識は全て学べます。例えばクラスタの構築に関してはkubernetes-hard-way及びkubeadmでクラスタ構築を行い、解説もついています。
 
 このUdemyの講座は、13時間ほどの講義と、それぞれの講義の終わりにウェブコンソールでのテストがあります。そのため、講義よりもテストの方が時間がかかります。
 
