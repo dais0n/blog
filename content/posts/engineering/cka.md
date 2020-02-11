@@ -10,7 +10,7 @@ description = "CKADとCKAの違いなども述べます"
 
 ## はじめに
 
-CKADに合格してからKubernetesの仕組みにも興味を持ち、CKAも受けました。スコアとしては86%で合格しました(合格は74%以上)。
+CKADに合格してからKubernetesの仕組みにも興味を持ち、CKA(Certified Kubernetes Administrator)も受けました。スコアとしては86%で合格しました(合格は74%以上)。
 
 CKADと比べて何が違うのか、CKADを合格してからCKAに合格するまでにやったことを書いてみます。
 
