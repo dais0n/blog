@@ -4,8 +4,8 @@ tags = ["k8s"]
 draft = false
 author = "dais0n"
 type = "posts/engineering"
-title = "CKAD取得してからCKA取得までにしたこと"
-description = "CKADから追加で勉強したこと"
+title = "CKAに合格するまでに必要な知識と勉強方法"
+description = "CKADとCKAの違いなども述べます"
 +++
 
 ## はじめに
@@ -33,7 +33,7 @@ CKA = ( CKAD - アプリケーション本番稼働に必要な細かめの設�
 
 また、CKAはCKADに比べて時間的に若干余裕がある印象です。CKADは時間との勝負感がありますが、CKAはじっくり考えても大丈夫かと思います。
 
-## 合格までに必要なこと
+## 合格までに必要な知識
 
 大きく3つです
 
