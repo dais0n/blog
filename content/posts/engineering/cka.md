@@ -4,7 +4,7 @@ tags = ["k8s"]
 draft = false
 author = "dais0n"
 type = "posts/engineering"
-title = "CKAに合格までの勉強方法"
+title = "CKA合格までの勉強方法"
 description = "CKADにつづきCKAも取得してみたのでまとめ"
 +++
 
