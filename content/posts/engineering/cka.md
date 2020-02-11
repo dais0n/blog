@@ -18,26 +18,15 @@ CKAD合格までの勉強方法は[こちら](https://blog.dais0n.net/posts/engi
 
 ### 合格に必要なこと
 
-自分なりにCKAを表現すると
+合格に必要な知識としてはまとめると
 
-```
-CKA = Kubernetesの基本リソースの理解
-           + Administrator向けのKubernetesリソースの理解
-           + Kubernetesクラスタ構築知識
-```
+- Kubernetesの基本リソースの理解
 
-だと思います。
+- Kubernetesクラスタ管理者向けのリソースの理解
 
-そのため合格に必要な知識としては
-
-- Kubernetesの基本リソースの理解(pod/deployment/job/cronjob/configmap/secret)
-
-- Role/RoleBindingなどの管理者向けのKubernetesリソースの理解
-
-- Kubernetesを構成するコンポーネントを理解してKubernetesクラスタの構築ができること
+- Kubernetesクラスタを構成するコンポーネントの理解
 
 が必要かと思います。
-
 
 ### 合格までにやったこと
 
@@ -61,8 +50,6 @@ CKA = Kubernetesの基本リソースの理解
 他の方のブログでもまとめられていますが、このUdemyの講座は講義からテストまで構成が完璧です。
 
 ## まとめ
-
-- CKAに合格するためにはKubernetesを構成するコンポーネントの理解や、Kubernetesクラスタの構築の知識が必要
 
 - [Certified Kubernetes Administrator (CKA) with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)がCKA対策では最高だった
 

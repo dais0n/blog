@@ -67,9 +67,9 @@ CKADとは何かというところから勉強方法までまとめてみまし�
 
   - 普段からKubernetesでアプリケーションを動かしているなら追加の知識は必要ないかと思います
 
-- 簡単なpod/deployment/job/cronjob/configmap/secretを何もみずに作成できること
+- 簡単なpod/deployment/job/cronjob/configmap/secretを素早く作成できること
 
-  - 試験は問題文の理解からはじまり、リソースの作成、リソースが作成できたかの確認を含め1問あたり6分しかかけられないため、とにかく時間が足りないです。そのため練習次第で早くできるkubenetesリソースの作成を早くすることが重要です。[こちらの表](https://qiita.com/oke-py/items/e8bf3863c8f48d750427#kubectl-run%E3%81%AB%E3%82%88%E3%82%8B%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E4%BD%9C%E6%88%90)が覚えやすいです
+  - 試験は時間が足りないため、練習次第で早くできるkubenetesリソースのコマンド操作を早くすることが重要です。[こちらの表](https://qiita.com/oke-py/items/e8bf3863c8f48d750427#kubectl-run%E3%81%AB%E3%82%88%E3%82%8B%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E4%BD%9C%E6%88%90)が覚えやすいです
 
 - コマンドのヘルプやkubernetes.ioをすばやく検索して目的の情報に辿り着く能力
 
