@@ -18,7 +18,7 @@ CKAD合格までの勉強方法は[こちら](https://blog.dais0n.net/posts/engi
 
 ### 合格に必要なこと
 
-合格に必要な知識としては[公式ページ](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)のDomains & Competenciesに詳しく記載してありますが、まとめると
+合格に必要な知識としては[公式ページ](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)のDomains & Competenciesに詳しく記載してありますが、大きく
 
 - Kubernetesの基本リソースの理解
 
@@ -26,7 +26,7 @@ CKAD合格までの勉強方法は[こちら](https://blog.dais0n.net/posts/engi
 
 - Kubernetesクラスタを構成するコンポーネントの理解及びクラスタの構築
 
-が必要です。
+が必要かと思います。
 
 ### 合格までにやったこと
 
