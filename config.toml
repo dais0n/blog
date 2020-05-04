@@ -18,6 +18,7 @@ summaryLength = 2
 [taxonomies]
 engineering = "engineering"
 pastime = "pastime"
+lifehack = "lifehack"
 
 # Needed for mermaid/katex shortcodes
 [markup]
