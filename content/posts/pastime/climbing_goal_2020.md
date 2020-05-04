@@ -5,7 +5,7 @@ tags = ["climbing"]
 pastime = ["climbing"]
 draft = false
 author = "dais0n"
-title = "2019年まとめ＆2020年の目標(クライミング)"
+title = "2019年まとめ＆2020年の目標"
 +++
 
 ## 2019年まとめ
