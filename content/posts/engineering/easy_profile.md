@@ -1,14 +1,10 @@
 +++
 date = "2019-11-09"
-tags = ["efficiency"]
+engineering = ["efficiency"]
 draft = false
 author = "dais0n"
-type = "posts/engineering"
 title = "計測の敷居を低くするのが大事という知見"
-description = "APIをプロファイリングした時のメモ"
 +++
-
-ただのメモ
 
 ## はじめに
 先日、ある同じような処理をする新旧システムがあり、新システムの方がレイテンシが悪いとのことで調査した時、 古いシステムと新しいシステムの大きな違いはDBだったので、はじめからDBのボトルネックを疑った。

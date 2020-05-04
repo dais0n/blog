@@ -1,94 +1,124 @@
-baseURL = "https://blog.dais0n.net/"
-languageCode = "en-us"
-title = "dais0nNote"
-theme = "ezhil"
-hasCJKLanguage = true
-enableEmoji=true
+baseURL = 'https://blog.dais0n.net/'
+title = 'dais0nNote'
+theme = 'book'
 
-# Enable syntax highlighting.
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-# Your Google analytics code.
+# google analytics
 googleAnalytics = "UA-111937976-1"
 
-# Your Disqus sortname.
+# disqus
 disqusShortname = "blog-dais0n-net"
 
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
 paginate = 5
+summaryLength = 2
+
+# customize taxonomies
+[taxonomies]
+engineering = "engineering"
+pastime = "pastime"
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+# [languages]
+# [languages.en]
+#   languageName = 'English'
+#   contentDir = 'content'
+#   weight = 1
+#
+# [languages.ru]
+#   languageName = 'Russian'
+#   contentDir = 'content.ru'
+#   weight = 2
+#
+# [languages.zh]
+#   languageName = 'Chinese'
+#   contentDir = 'content.zh'
+#   weight = 3
+#
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "RSS"
+  url = "https://blog.dais0n.net/index.xml"
+  weight = 10
+
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/dais0n"
+  weight = 10
+
+[[menu.after]]
+  name = "Twitter"
+  url = "https://twitter.com/dais0n_"
+  weight = 20
+
+[[menu.after]]
+  name = "Instagram"
+  url = "https://twitter.com/dais0n_"
+  weight = 20
 
 [params]
-# Blog subtitle which appears below blog title. Supports markdown.
-subtitle = ""
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
 
-# Content types which are included in home page recent posts list.
-mainSections = ["posts/engineering"]
+  # (Optional, default none) Set the path to a logo for the book. If the logo is
+  # /static/logo.png then the path would be logo.png
+  # BookLogo = 'logo.png'
 
-# Content types which are excludes Disqus comments.
-disableDisqusTypes = ["page"]
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  # BookMenuBundle = '/menu'
 
-# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
-featherIconsCDN = true
+  # (Optional, default docs) Specify root page to render child pages as menu.
+  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
+  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
+  BookSection = 'none'
 
-# Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
-favicon = "myicon.ico"
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  # BookRepo = 'https://github.com/alex-shpak/hugo-book'
 
-# Switch to dark mode or auto detect mode from OS (Optional).
-# "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-mode = "auto" # "dark" or "auto"
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Edit path must point to root directory of repo.
+  # BookEditPath = 'edit/master/exampleSite'
 
-# Custom CSS added to default styles. Files added to `static` folder is copied as it is to
-# root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
-# you can specify custom css path as `css/custom.css`.
-customCSS = "css/custom.css"
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat = 'January 2, 2006'
 
-# Custom list of Javascript files to load. Just like custom CSS you can place js files under
-# `static/js` folder and specify path here as `js/script-name.js`.
-customJS = [""]
+  # (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+  BookSearch = false
 
-# Main menu which appears below site header.
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = true
 
-# twitter card
-description = "dais0nNote"
-images = ["twitter_card_default.png"]
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  BookPortableLinks = true
 
-[[menu.main]]
-name = "Hobby"
-url = "/posts/hobby"
-weight = 1
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 2
-
-# Social media links which shows up on site header.
-# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/dais0n"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/dais0n_"
-
-[[params.social]]
-name = "Instagram"
-icon = "instagram"
-url = "https://www.instagram.com/dais0n_"
-
-[[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
-
-# Enable tags.
-[taxonomies]
-tag = "tags"
-
-[markup.goldmark.renderer]
-unsafe = true
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
+  BookServiceWorker = true

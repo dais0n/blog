@@ -1,11 +1,9 @@
 +++
 date = "2018-02-18T13:56:02+09:00"
-tags = ["tool"]
+engineering = ["zsh", "shell"]
 draft = false
 author = "dais0n"
-type = "posts/engineering"
 title = "毎回コマンド調べてない？それpeco使えば解決できるよ"
-description = "pecoの紹介"
 +++
 
 ## pecoってなに？

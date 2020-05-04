@@ -1,11 +1,9 @@
 +++
 date = "2020-02-11T00:45:02+09:00"
-tags = ["k8s"]
+engineering = ["k8s"]
 draft = false
 author = "dais0n"
-type = "posts/engineering"
 title = "CKA合格までの勉強方法"
-description = "CKADにつづきCKAも取得してみたのでまとめ"
 +++
 
 ## はじめに

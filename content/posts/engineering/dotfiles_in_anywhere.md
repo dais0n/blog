@@ -1,11 +1,9 @@
 +++
 date = "2019-01-27T16:00:02+09:00"
-tags = ["efficiency","tool"]
+engineering = ["k8s"]
 draft = false
 author = "dais0n"
-type = "posts/engineering"
 title = "常に同じパフォーマンスを発揮するdotfilesの設定"
-description = "どの環境でも同じ設定を使う方法をまとめてみた"
 +++
 
 ## 背景
