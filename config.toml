@@ -50,22 +50,12 @@ pastime = "pastime"
 [menu]
 # [[menu.before]]
 [[menu.after]]
-  name = "RSS"
-  url = "https://blog.dais0n.net/index.xml"
-  weight = 10
-
-[[menu.after]]
   name = "Github"
   url = "https://github.com/dais0n"
   weight = 10
 
 [[menu.after]]
   name = "Twitter"
-  url = "https://twitter.com/dais0n_"
-  weight = 20
-
-[[menu.after]]
-  name = "Instagram"
   url = "https://twitter.com/dais0n_"
   weight = 20
 
