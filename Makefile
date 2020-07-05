@@ -1,5 +1,7 @@
 BLOG = dais0n.hatenablog.com
-DATE = $(shell date +%Y%m%d)
+DATE_Y = $(shell date +%Y)
+DATE_M = $(shell date +%m)
+DATE_D = $(shell date +%d)
 
 .PHONY: pull
 pull:
@@ -11,5 +13,5 @@ new:
 
 .PHONY: post
 post:
-	blogsync push ${BLOG}/entry/${DATE}/*.md
+	blogsync push ${BLOG}/entry/${DATE_Y}/${DATE_M}/${DATE_D}/*.md
 
